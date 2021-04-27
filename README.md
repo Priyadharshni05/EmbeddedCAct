@@ -4,7 +4,7 @@
 
 ## In Action
 
-![OFF](simulation/Activity1.md)
+![Activity1](simulation/Activity1.md)
 
 # Activity 2
 
