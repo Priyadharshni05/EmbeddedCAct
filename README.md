@@ -4,9 +4,7 @@
 
 ## In Action
 
-|ON|OFF|
-|:--:|:--:|
-|![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
+![OFF](simulation/Activity1.md)
 
 # Activity 2
 
