@@ -1,30 +1,30 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# Activity 1
+## Activity 1
 
-## In Action
+### In Action
 
 ![Activity1](simulation/Activity1.md)
 
-# Activity 2
+## Activity 2
 
-## In Action
-
-|ON|OFF|
-|:--:|:--:|
-|![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
-
-# Activity 3
-
-## In Action
+### In Action
 
 |ON|OFF|
 |:--:|:--:|
 |![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
 
-# Activity 4
+## Activity 3
 
-## In Action
+### In Action
+
+|ON|OFF|
+|:--:|:--:|
+|![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
+
+## Activity 4
+
+### In Action
 
 |ON|OFF|
 |:--:|:--:|
