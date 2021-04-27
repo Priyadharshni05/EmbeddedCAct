@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-void port()
+void port_init()
 {
     DDRB|=(1<<PB0);
     DDRD&=~(1<<PD0);
