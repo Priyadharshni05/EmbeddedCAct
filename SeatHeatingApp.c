@@ -3,7 +3,7 @@
 #include <Activity1.h>
 int main(void)
 {
-    port();
+    port_init();
     led ();
     return 0;
 }
