@@ -1,6 +1,3 @@
-/*
- */
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include "Activity1.h"
@@ -23,11 +20,11 @@ int main(void)
             Timer_Init();
             USART_init(103);
             uint16_t temp = 0;
-			temp = ReadADC(0);
+			temp = ReadADC(0); //Storing the ADC Value
 			_delay_ms(200);
 			pwm_waveform(temp);	/*Generation of PWM according to the temperature value*/
 			_delay_ms(200);
-			USARTWritemsg(temp);
+			USARTWritemsg(temp);/*Writing the Message on the Serial Monitor*/
         }
     }
     return 0;
