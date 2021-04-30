@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage SeatHeatingApp Project by Priyadharshni N @subpage SeatHeatingApp.c
