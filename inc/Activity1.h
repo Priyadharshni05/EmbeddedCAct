@@ -8,7 +8,7 @@
  */
 void port_init(void);
 
-/** \brief switching on/off the LED
+/** \brief Controlling the LED (switching on/off the LED)
  *
  * \return void
  *
