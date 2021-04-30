@@ -5,15 +5,17 @@ int i=0;
 
 void USART_init(uint16_t ubrr)
 {
+    //Set Baud Rate
     UBRR0L= ubrr;
     UBRR0H= (ubrr>>8)&(0x00ff);
     UCSR0C=(1<<UMSEL00)|(1<<UCSZ01)|(1<<UCSZ00);
+    //Enabling the Transmission and Reception
     UCSR0B=(1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0);
 }
 
 char USARTReadmsg()
 {
-    while(!(UCSR0A & (1<<RXC0)))
+    while(!(UCSR0A & (1<<RXC0)))//Wait until the Reception is complete
     {
 
     }
@@ -78,4 +80,5 @@ void USARTWritemsg(uint16_t temp)
 		 UDR0 = '\r';					    /*Put data into buffer, sends the data*/
     _delay_ms(2000);
 }
+
 
