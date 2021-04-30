@@ -14,7 +14,7 @@ int main(void)
     {
         port_init(); //Port Initialisation
         int status=0;
-        status=led_init();
+        status=led_init(); //LED ON and OFF
         if(status==1)
         {
             ADC_Init();
