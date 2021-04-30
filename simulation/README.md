@@ -18,7 +18,7 @@
 
 ### ADC Value Output
 
-![ADCValue](Activity2/ADC Value.png)
+![ADCValue](Activity2/ADCValue.png)
 
 ## Activity 3
 
@@ -26,7 +26,7 @@
 
 ![ON](Activity3/ON.png)
 
-### PWMOutput-LED ON
+### PWMOutput-LED OFF
 
 ![OFF](Activity3/OFF.png)
 
