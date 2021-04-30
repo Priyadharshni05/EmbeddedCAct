@@ -1,5 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
+#include "Activity1.h"
 
 void port_init()
 {
@@ -12,21 +13,19 @@ void port_init()
     return 0;
 }
 
-void led()
+int led_init()
 {
-    while(1)
-    {
         if((!(PIND & (1<<PD0)) && (!(PIND & (1<<PD2)))))
         {
             PORTB |=(1<<PB0);
             _delay_ms(2000);
+            return 1;
         }
         else
         {
             PORTB &=~(1<<PB0);
             _delay_ms(2000);
+            return 0;
         }
-    }
-    return 0;
 }
 
