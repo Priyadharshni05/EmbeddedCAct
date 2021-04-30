@@ -3,7 +3,7 @@
 ## SeatHeatingApp Project in Action
 ![SeatHeatingApp](simulation/SeatHeatingApp/SeatHeatingApp.png)
 
-#### CI and Code Quality
+## CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
