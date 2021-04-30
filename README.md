@@ -1,7 +1,7 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
 ## SeatHeatingApp Project in Action
-![SeatHeatingApp](simulation/SeatHeatingApp)
+![SeatHeatingApp](simulation/SeatHeatingApp/SeatHeatingApp.png)
 
 #### CI and Code Quality
 
