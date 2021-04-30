@@ -1,7 +1,19 @@
 #ifndef ACTIVITY1_H_INCLUDED
 #define ACTIVITY1_H_INCLUDED
 
-void port_init();
-void led();
+/** \brief port initialisation
+ *
+ * \return void
+ *
+ */
+void port_init(void);
+
+/** \brief switching on/off the LED
+ *
+ * \return void
+ *
+ */
+
+int led(void);
 
 #endif // ACTIVITY1_H_INCLUDED
