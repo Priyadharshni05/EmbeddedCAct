@@ -9,7 +9,7 @@ void Timer_Init()
     DDRB |= (1<<PB1);   /*initializing portb1 for observing PWM*/
 }
 
-void pwm_waveform(uint16_t temp)
+void pwm_waveform(uint16_t temp)//ADC Value
 {
     if(temp >= 0 && temp <= 200){
         OCR1A = 0xcc; /*duty cycle is 20%*/
