@@ -10,10 +10,9 @@
 
 int main(void)
 {
-
     while(1)
     {
-        port_init();
+        port_init(); //Port Initialisation
         int status=0;
         status=led_init();
         if(status==1)
