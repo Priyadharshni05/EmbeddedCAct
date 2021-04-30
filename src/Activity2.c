@@ -5,7 +5,7 @@
 void ADC_Init()
 {
     ADMUX=(1<<REFS0); //AREF=AVCC //01000000
-    ADCSRA=(1<<ADEN) | (7<<ADPS0); //(1<<ADEN)=>Enable ADC|(1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0)
+    ADCSRA=(1<<ADEN) | (7<<ADPS0); //(1<<ADEN)=>Enable ADC|(1<<ADPS2)=>Prescale Value|(1<<ADPS1)|(1<<ADPS0)
 }
 
 uint16_t ReadADC(uint8_t ch)//00000000 00000000
