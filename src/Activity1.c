@@ -4,7 +4,7 @@
 
 void port_init()
 {
-    DDRB|=(1<<PB0);
+    DDRB|=(1<<PB0); //Port PB0->LED->Output
     DDRD&=~(1<<PD0);
     DDRD&=~(1<<PD2);
 
