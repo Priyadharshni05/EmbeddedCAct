@@ -10,7 +10,6 @@ void port_init()
 
     PORTD|=(1<<PD0);//Writing switch as 1(5V)
     PORTD|=(1<<PD2);//Writing switch as 1(5V)
-    return 0;
 }
 
 int led_init()
